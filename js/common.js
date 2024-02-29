@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // 스크롤 플러그인 적용
-    // var scrollbars = document.querySelectorAll('.scrollbar-macosx');
+    // var scrollbars = document.querySelectorAll('.');
     // scrollbars.forEach(function (scrollbar) {
     //     SimpleScrollbar.initEl(scrollbar);
     // });

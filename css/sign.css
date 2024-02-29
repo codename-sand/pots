@@ -55,7 +55,7 @@ p.gray_black{border:1px solid #5e5e5e;border-radius:100px;}
 
 
 
-.sign_wrap .sign_right .select_radio_area{width: calc(100% - 20px);height:40px;border:1px solid #b9b9b9;box-sizing:border-box;padding:0px 10px;margin-top: 50px;}
+.sign_wrap .sign_right .select_radio_area{width: calc(100% - 20px);height:40px;border:1px solid #b9b9b9;box-sizing:border-box;padding:0px 10px;margin: 50px auto 0;}
 .sign_wrap .sign_right .select_radio_area p{width:80px;float:left;line-height: 40px;font-size:12px;}
 .sign_wrap .sign_right .select_radio_area .radio_style{width:60px;height:40px;float:left;}
 .sign_wrap .sign_right .select_radio_area .radio_style label{line-height: 40px;}

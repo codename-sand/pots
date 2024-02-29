@@ -239,8 +239,8 @@
 
 /*************** SCROLLBAR MAC OS X ***************/
 
-.scrollbar-macosx > .scroll-element,
-.scrollbar-macosx > .scroll-element div
+. > .scroll-element,
+. > .scroll-element div
 {
     background: none;
     border: none;
@@ -250,7 +250,7 @@
     z-index: 10;
 }
 
-.scrollbar-macosx > .scroll-element div {
+. > .scroll-element div {
     display: block;
     height: 100%;
     left: 0;
@@ -258,8 +258,8 @@
     width: 100%;
 }
 
-.scrollbar-macosx > .scroll-element .scroll-element_track { display: none; }
-.scrollbar-macosx > .scroll-element .scroll-bar {
+. > .scroll-element .scroll-element_track { display: none; }
+. > .scroll-element .scroll-bar {
     background-color: #6C6E71;
     display: block;
 
@@ -277,15 +277,15 @@
     -ms-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear;
 }
-.scrollbar-macosx:hover > .scroll-element .scroll-bar,
-.scrollbar-macosx > .scroll-element.scroll-draggable .scroll-bar {
+.:hover > .scroll-element .scroll-bar,
+. > .scroll-element.scroll-draggable .scroll-bar {
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
     filter: alpha(opacity=70);
     opacity: 0.7;
 }
 
 
-.scrollbar-macosx > .scroll-element.scroll-x {
+. > .scroll-element.scroll-x {
     bottom: 0px;
     height: 0px;
     left: 0;
@@ -294,7 +294,7 @@
     width: 100%;
 }
 
-.scrollbar-macosx > .scroll-element.scroll-y {
+. > .scroll-element.scroll-y {
     height: 100%;
     min-height: 100%;
     right: 0px;
@@ -303,18 +303,18 @@
 }
 
 /* scrollbar height/width & offset from container borders */
-.scrollbar-macosx > .scroll-element.scroll-x .scroll-bar { height: 7px; min-width: 10px; top: -9px; }
-.scrollbar-macosx > .scroll-element.scroll-y .scroll-bar { left: -9px; min-height: 10px; width: 7px; }
+. > .scroll-element.scroll-x .scroll-bar { height: 7px; min-width: 10px; top: -9px; }
+. > .scroll-element.scroll-y .scroll-bar { left: -9px; min-height: 10px; width: 7px; }
 
-.scrollbar-macosx > .scroll-element.scroll-x .scroll-element_outer { left: 2px; }
-.scrollbar-macosx > .scroll-element.scroll-x .scroll-element_size { left: -4px; }
+. > .scroll-element.scroll-x .scroll-element_outer { left: 2px; }
+. > .scroll-element.scroll-x .scroll-element_size { left: -4px; }
 
-.scrollbar-macosx > .scroll-element.scroll-y .scroll-element_outer { top: 2px; }
-.scrollbar-macosx > .scroll-element.scroll-y .scroll-element_size { top: -4px; }
+. > .scroll-element.scroll-y .scroll-element_outer { top: 2px; }
+. > .scroll-element.scroll-y .scroll-element_size { top: -4px; }
 
 /* update scrollbar offset if both scrolls are visible */
-.scrollbar-macosx > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size { left: -11px; }
-.scrollbar-macosx > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size { top: -11px; }
+. > .scroll-element.scroll-x.scroll-scrolly_visible .scroll-element_size { left: -11px; }
+. > .scroll-element.scroll-y.scroll-scrollx_visible .scroll-element_size { top: -11px; }
 
 
 
